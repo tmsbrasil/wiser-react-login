@@ -1,0 +1,67 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: left;
+}
+
+.splash{
+    width:765px;
+    height:auto;
+    background-image: url('../public/assets/foto_mulher_notebook_degrade.jpg');
+    background-size:cover;
+}
+
+.form {
+    width: 256px;
+    margin-left: 112px;
+    margin-top: 136px;
+}
+
+.title {
+    font-size: 40px;
+    line-height: 48px;
+    color: #383E71;
+}
+.remember{
+    font-size: 14px;
+    line-height: 20px;
+    color: #989FDB;
+    padding-top: 20px;
+    text-align: center;
+}
+.info {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #989FDB;
+    margin-bottom: 30px;
+}
+
+.form label {
+    font-size: 10px;
+    line-height: 38px;   
+    display: flex;
+    align-items: center;
+    margin-left:10px; 
+    color: #383E71;
+    text-transform: uppercase;
+}
+
+.form button {
+    width: 256px;
+    height: 48px;   
+    padding: 14px 0 14px 0;
+    margin-top: 38px;
+    text-transform: uppercase;
+    background: linear-gradient(267.79deg, #383E71 0%, #9D25B0 99.18%);
+    box-shadow: 0px 10px 25px #CF99DB;
+    border-radius: 8px;
+    border-style: none;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;    
+}
